@@ -1,0 +1,58 @@
+{
+    "about": "About IK",
+    "branches": "Branches",
+    "menu": "Menu",
+    "media": "Media",
+    "sweet": "Sweets",
+    "drinks": "Drinks",
+    "hot": "Hot",
+    "cold": "Cold",
+    "foods": "Foods",
+    "hero": {
+      "subtitle": "iK We know you look good today."
+    },
+    "aboutSection": {
+      "title1": "Where Passion Meets",
+      "title2": "Flavor",
+      "p1": {
+        "start": "At ",
+        "middle": ", we believe that coffee is more than just a drink — it's a daily ritual, a moment of calm, and a spark of inspiration. Founded with a passion for quality and creativity, ",
+        "end": " blends modern aesthetics with authentic taste to create an experience that stays with you."
+      },
+      "p2": {
+        "start": "From our carefully crafted espresso to our signature cold brews and gourmet sandwiches, every detail is designed to elevate your mood and your day. Whether you're here to unwind, create, or connect — ",
+        "end": " is your space."
+      },
+      "p3": "Crafted in Saudi Arabia. Inspired by the world."
+    },
+    "branchesSection": {
+      "title": "Our Branches",
+      "mursalat": {
+        "name": "Al-Mursalat Branch",
+        "location": "King Abdullah Road"
+      },
+      "downtown": {
+        "name": "Downtown Riyadh Branch",
+        "location": "Circus Buildings"
+      },
+      "viewMap": "View on Map"
+    },
+    "mediaSection": {
+      "title": "Stay Connected With IK Coffee",
+      "tiktok": "TikTok",
+      "instagram": "Instagram",
+      "twitter": "Twitter",
+      "email": "Email"
+    },
+    "sweetTitle": "SWEETS",
+    "hotTitle": "HOT DRINKS",
+    "coldTitle": "COLD DRINKS",
+    "foodsTitle": "FOODS",
+    "footer": {
+  "designedBy": "Designed and developed with passion by Rashid Alanzi"
+}
+
+
+
+  }
+  
