@@ -1,14 +1,14 @@
 import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
 
-import img0 from "../assets/foods/IMG_0029.JPG";
-import img1 from "../assets/foods/IMG_0032.jpg";
-import img2 from "../assets/foods/IMG_0033.JPG";
-import img3 from "../assets/foods/IMG_0034.JPG";
-import img4 from "../assets/foods/IMG_0039.JPG";
-import img5 from "../assets/foods/IMG_0041.JPG";
-import img6 from "../assets/foods/IMG_0042.JPG";
-import img7 from "../assets/foods/IMG_0070.JPG";
+import img0 from "../assets/foods/IMG_0029.png";
+import img1 from "../assets/foods/IMG_0032.png";
+import img2 from "../assets/foods/IMG_0033.png";
+import img3 from "../assets/foods/IMG_0034.png";
+import img4 from "../assets/foods/IMG_0039.png";
+import img5 from "../assets/foods/IMG_0041.png";
+import img6 from "../assets/foods/IMG_0042.png";
+import img7 from "../assets/foods/IMG_0070.png";
 
 const foodItems = [
   { image: img0, name: "Grilled Cheese", price: "22 SR" },
@@ -52,5 +52,5 @@ export default function Foods() {
         ))}
       </div>
     </section>
-  );
+  ); 
 }

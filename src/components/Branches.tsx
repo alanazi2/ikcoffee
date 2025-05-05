@@ -1,8 +1,8 @@
 // src/components/Branches.tsx
 import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
-import mursalatImg from "../assets/IMG_4999.jpg";
-import downtownImg from "../assets/IMG_4998.jpg";
+import mursalatImg from "../assets/IMG_4999.png";
+import downtownImg from "../assets/IMG_4998.png";
 
 export default function Branches() {
   const { t } = useTranslation();
@@ -61,3 +61,4 @@ export default function Branches() {
     </section>
   );
 }
+ 

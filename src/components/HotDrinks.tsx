@@ -1,17 +1,17 @@
 import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
 
-import amrekano from "../assets/hot/amrekano.JPG";
-import img_0008 from "../assets/hot/IMG_0008.JPG";
-import img_0010 from "../assets/hot/IMG_0010.JPG";
-import img_0017 from "../assets/hot/IMG_0017.JPG";
-import img_0018 from "../assets/hot/IMG_0018.JPG";
-import img_0020 from "../assets/hot/IMG_0020.JPG";
-import img_0022 from "../assets/hot/IMG_0022.JPG";
-import img_0023 from "../assets/hot/IMG_0023.JPG";
-import img_0025 from "../assets/hot/IMG_0025.JPG";
-import img_0058 from "../assets/hot/IMG_0058.JPG";
-import img_0061 from "../assets/hot/IMG_0061.JPG";
+import amrekano from "../assets/hot/amrekano.png";
+import img_0008 from "../assets/hot/IMG_0008.png";
+import img_0010 from "../assets/hot/IMG_0010.png";
+import img_0017 from "../assets/hot/IMG_0017.png";
+import img_0018 from "../assets/hot/IMG_0018.png";
+import img_0020 from "../assets/hot/IMG_0020.png";
+import img_0022 from "../assets/hot/IMG_0022.png";
+import img_0023 from "../assets/hot/IMG_0023.png";
+import img_0025 from "../assets/hot/IMG_0025.png";
+import img_0058 from "../assets/hot/IMG_0058.png";
+import img_0061 from "../assets/hot/IMG_0061.png";
 
 const hotDrinks = [
   { image: amrekano, name: "Americano", price: "13 SR" },
@@ -59,4 +59,4 @@ export default function HotDrinks() {
       </div>
     </section>
   );
-}
+} 

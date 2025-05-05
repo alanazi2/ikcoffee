@@ -1,17 +1,17 @@
 import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
 
-import aeslateeh from "../assets/cold/aeslateeh.JPG";
-import aictae from "../assets/cold/aictae.JPG";
-import aisdrep from "../assets/cold/aisdrep.JPG";
-import img0012 from "../assets/cold/IMG_0012.JPG";
-import img0024 from "../assets/cold/IMG_0024.JPG";
-import img0051 from "../assets/cold/IMG_0051.JPG";
-import img0062 from "../assets/cold/IMG_0062.JPG";
-import img0066 from "../assets/cold/IMG_0066.JPG";
-import img0068 from "../assets/cold/IMG_0068.JPG";
-import matsha from "../assets/cold/matsha.JPG";
-import spsnish from "../assets/cold/spsnish.JPG";
+import aeslateeh from "../assets/cold/aeslateeh.png";
+import aictae from "../assets/cold/aictae.png";
+import aisdrep from "../assets/cold/aisdrep.png";
+import img0012 from "../assets/cold/IMG_0012.png";
+import img0024 from "../assets/cold/IMG_0024.png";
+import img0051 from "../assets/cold/IMG_0051.png";
+import img0062 from "../assets/cold/IMG_0062.png";
+import img0066 from "../assets/cold/IMG_0066.png";
+import img0068 from "../assets/cold/IMG_0068.png";
+import matsha from "../assets/cold/matsha.png";
+import spsnish from "../assets/cold/spsnish.png";
 
 const coldDrinks = [
   { image: aeslateeh, name: "Ice Spanish Latte", price: "20 SR" },
@@ -27,7 +27,7 @@ const coldDrinks = [
   { image: spsnish, name: "Ice Latte", price: "17 SR" },
 ];
 
-export default function ColdDrinks() {
+export default function ColdDrinks() { 
   const { t } = useTranslation();
 
   return (

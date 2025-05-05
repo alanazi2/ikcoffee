@@ -78,4 +78,4 @@ export default function Media() {
       </div>
     </section>
   );
-}
+} 

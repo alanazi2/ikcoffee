@@ -7,7 +7,7 @@ import rmslogo from "../assets/rmslogw.png";
 import { useTranslation } from "react-i18next";
 
 export default function Footer() {
-  const { t, i18n } = useTranslation();
+  const { t,  } = useTranslation();
 
   return (
     <footer className="bg-black text-white py-10">
@@ -45,7 +45,7 @@ export default function Footer() {
              <img src={rmslogo} alt="rmsr.sa logo" className="w-10 h-20" />
             </a>
           </div>
-        </div>
+        </div> 
 
         {/* Right Logos */}
         <div className="flex gap-10 items-center">

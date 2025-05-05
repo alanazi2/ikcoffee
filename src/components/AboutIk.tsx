@@ -15,7 +15,7 @@ export default function About() {
 </h2>
 
 
-        <p className="text-gray-700 text-lg leading-relaxed">
+        <p className="text-gray-700 text-lg leading-relaxed"> 
           {t("aboutSection.p1.start")}
           <span className="text-[#FF8080] font-semibold">iK</span>
           {t("aboutSection.p1.middle")}

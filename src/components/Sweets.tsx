@@ -2,15 +2,15 @@
 import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
 
-import bodeng from "../assets/sweets/bodeng.JPG";
-import hani from "../assets/sweets/hani.JPG";
-import img0036 from "../assets/sweets/IMG_0036.JPG";
-import img0038 from "../assets/sweets/IMG_0038.JPG";
-import img0043 from "../assets/sweets/IMG_0043.JPG";
-import img0045 from "../assets/sweets/IMG_0045.JPG";
-import img0078 from "../assets/sweets/IMG_0078.JPG";
-import paets from "../assets/sweets/paets.JPG";
-import trafel from "../assets/sweets/trafel.JPG";
+import bodeng from "../assets/sweets/bodeng.png";
+import hani from "../assets/sweets/hani.png";
+import img0036 from "../assets/sweets/IMG_0036.png";
+import img0038 from "../assets/sweets/IMG_0038.png";
+import img0043 from "../assets/sweets/IMG_0043.png";
+import img0045 from "../assets/sweets/IMG_0045.png";
+import img0078 from "../assets/sweets/IMG_0078.png";
+import paets from "../assets/sweets/paets.png";
+import trafel from "../assets/sweets/trafel.png";
 
 const sweets = [
   { image: bodeng, name: "IK Chocolate Pudding", price: "21 SR" },
@@ -57,3 +57,4 @@ export default function Sweets() {
     </section>
   );
 }
+ 
