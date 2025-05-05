@@ -68,7 +68,9 @@ export default function Header() {
             item === "menu" ? (
               <div key="menu" className="relative">
                 <button
-                  ref={(el) => (navRefs.current[index] = el)}
+                  ref={(el) => {
+                    navRefs.current[index] = el;
+                  }}
                   onClick={() => {
                     setActiveItem(index);
                     setIsMenuDropdownOpen((prev) => !prev);
@@ -82,7 +84,6 @@ export default function Header() {
 
                 {isMenuDropdownOpen && (
                   <div className="absolute top-full left-1/2 -translate-x-1/2 mt-2 w-48 bg-white text-black rounded-lg shadow-lg p-3 space-y-2 z-50">
-                    {/* Drinks أولاً */}
                     <div className="relative">
                       <button
                         onClick={() => setIsDrinksOpen((prev) => !prev)}
@@ -115,7 +116,9 @@ export default function Header() {
             ) : (
               <button
                 key={index}
-                ref={(el) => (navRefs.current[index] = el)}
+                ref={(el) => {
+                  navRefs.current[index] = el;
+                }}
                 onClick={() => handleNavigation(`/${item.toLowerCase()}`)}
                 className={`relative z-10 px-4 py-2 transition-colors duration-300 ${
                   activeItem === index ? "text-black" : "text-white"
@@ -126,7 +129,6 @@ export default function Header() {
             )
           )}
 
-          {/* Language toggle */}
           <button
             onClick={toggleLanguage}
             className="ml-6 px-4 py-2 border border-white rounded-full hover:bg-white hover:text-[#FF8080] transition"
@@ -167,7 +169,6 @@ export default function Header() {
                 </button>
                 {isMenuDropdownOpen && (
                   <div className="ml-4 space-y-1">
-                    {/* Drinks أولاً */}
                     <button onClick={() => setIsDrinksOpen((prev) => !prev)} className="block w-full text-left">
                       {t("drinks")}
                     </button>
@@ -202,4 +203,3 @@ export default function Header() {
     </header>
   );
 }
- 
